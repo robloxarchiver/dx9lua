@@ -54,3 +54,4 @@ Step 4: Copy the path of the folder you made the build in and open VSCode. Go to
 # Contributors
 
 - supg (Gave a list of undocumented functions to add)
+- 6660/Alleexxi [Pull #1](https://github.com/RobloxArchiver/dx9lua/pull/1)
