@@ -2,6 +2,7 @@
 This VSCode extension adds snippets for DX9WARE Lua. Currently has support for all major functions, and some undocumented functions.
 
 Here is a horrible demo as I do not know what to demo! If anyone would like to contribute a good demo please go ahead!
+
 ![](https://github.com/RobloxArchiver/dx9lua/blob/main/images/demo.gif)
 
 Created and Maintained by RobloxArchiver. The git is OPEN to contributions!
