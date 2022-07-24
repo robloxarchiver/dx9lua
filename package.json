@@ -6,7 +6,8 @@
         "vscode": "^1.69.0"
     },
     "categories": [
-        "Snippets"
+        "Snippets",
+        "Other"
     ],
     "contributes": {
         "snippets": [
