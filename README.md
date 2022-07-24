@@ -5,7 +5,7 @@ Here is a horrible demo as I do not know what to demo! If anyone would like to c
 
 ![](https://github.com/RobloxArchiver/dx9lua/blob/main/images/demo.gif)
 
-Created and Maintained by RobloxArchiver. The git is OPEN to contributions!
+Created and Maintained by RobloxArchiver. The git is OPEN to contributions! In the event you find a issue or get errors, make a Issue! If you want to add code of course make a pull whenever!
 
 # Installation
 There are multiple ways to get `dx9lua`. Pick your own flavor!
