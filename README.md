@@ -6,7 +6,16 @@ Here is a horrible demo!
 
 Created and Maintained by RobloxArchiver. The git is OPEN to contributions!
 
-# Build
+# Installation
+There are multiple ways to get `dx9lua`. Pick your own flavor!
+
+## VSCode Marketplace
+
+`dx9lua` is available on the VSCode Marketplace!
+
+![](https://github.com/RobloxArchiver/dx9lua/blob/main/images/image.png)
+
+## Build
 You can also just build it yourself.
 
 Requirements
