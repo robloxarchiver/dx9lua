@@ -1,0 +1,23 @@
+{
+    "dx9.FindFirstChild": {
+        "prefix": "dx9.FindFirstChild",
+        "body": [
+            "dx9.FindFirstChild(${1:instance}, ${2:string})"
+        ],
+        "description": "Returns a pointer(number) to the instance."
+    },
+    "dx9.FindFirstChildOfClass": {
+        "prefix": "dx9.FindFirstChildOfClass",
+        "body": [
+            "dx9.FindFirstChildOfClass(${1:instance}, ${2:childName})"
+        ],
+        "description": "Returns a pointer(number) to the instance."
+    },
+    "dx9.FindFirstDescendant": {
+        "prefix": "dx9.FindFirstDescendant",
+        "body": [
+            "dx9.FindFirstDescendant(${1:instance}, ${2:childName})"
+        ],
+        "description": "Returns a pointer(number) to the first instance which contains the child instance you're looking for."
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "dx9lua",
+    "description": "DX9WARE Lua support for Visual Studio Code.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "lua",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
