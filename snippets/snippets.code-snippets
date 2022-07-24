@@ -1,15 +1,15 @@
 {
     "dx9.FindFirstChild": {
         "prefix": "dx9.FindFirstChild",
-        "body": "dx9.FindFirstChild(${1:instance}, ${2:string})"
+        "body": "dx9.FindFirstChild(${1:pointer}, ${2:string})"
     },
     "dx9.FindFirstChildOfClass": {
         "prefix": "dx9.FindFirstChildOfClass",
-        "body": "dx9.FindFirstChildOfClass(${1:instance}, ${2:childName})"
+        "body": "dx9.FindFirstChildOfClass(${1:pointer}, ${2:string})"
     },
     "dx9.FindFirstDescendant": {
         "prefix": "dx9.FindFirstDescendant",
-        "body": "dx9.FindFirstDescendant(${1:instance}, ${2:childName})"
+        "body": "dx9.FindFirstDescendant(${1:pointer}, ${2:string})"
     },
     "dx9.GetDatamodel": {
         "prefix": "dx9.GetDatamodel",
@@ -17,26 +17,42 @@
     },
     "dx9.GetCFrame": {
         "prefix": "dx9.GetCFrame",
-        "body": "dx9.GetCFrame(${1:BasePart})"
+        "body": "dx9.GetCFrame(${1:pointer})"
     },
     "dx9.GetAllParts": {
         "prefix": "dx9.GetAllParts",
-        "body": "dx9.GetAllParts(${1:object})"
+        "body": "dx9.GetAllParts(${1:pointer})"
     },
     "dx9.GetName": {
         "prefix": "dx9.GetName",
-        "body": "dx9.GetName(${1:instance})"
+        "body": "dx9.GetName(${1:pointer})"
     },
     "dx9.GetChildren": {
         "prefix": "dx9.GetChildren",
-        "body": "dx9.GetName(${1:instance})"
+        "body": "dx9.GetName(${1:pointer})"
     },
     "dx9.GetPosition": {
         "prefix": "dx9.GetPosition",
-        "body": "dx9.GetPosition(${1:instance})"
+        "body": "dx9.GetPosition(${1:pointer})"
     },
     "dx9.GetParent": {
         "prefix": "dx9.GetParent",
-        "body": "dx9.GetParent(${1:instance})"
+        "body": "dx9.GetParent(${1:pointer})"
+    },
+    "dx9.GetTeam": {
+        "prefix": "dx9.GetTeam",
+        "body": "dx9.GetTeam(${1:pointer})"
+    },
+    "dx9.GetTeamColour": {
+        "prefix": "dx9.GetTeamColour",
+        "body": "dx9.GetTeamColour(${1:pointer})"
+    },
+    "dx9.GetCharacter": {
+        "prefix": "dx9.GetCharacter",
+        "body": "dx9.GetCharacter(${1:pointer})"
+    },
+    "dx9.GetAdornee": {
+        "prefix": "dx9.GetAdornee",
+        "body": "dx9.GetAdornee(${1:pointer})"
     }
 }
