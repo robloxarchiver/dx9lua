@@ -2,6 +2,7 @@
     "name": "dx9lua",
     "description": "DX9WARE Lua support for Visual Studio Code.",
     "version": "0.0.1",
+    "publisher": "RobloxArchiver",
     "engines": {
         "vscode": "^1.69.0"
     },
