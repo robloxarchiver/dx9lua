@@ -315,34 +315,196 @@
     "!dxui": {
         "prefix": "!dxui",
         "body": [
-            "local ${1:lib} = loadstring(dx9.Get(\"https://raw.githubusercontent.com/soupg/DXLibUI/main/main.lua\"))()"
+            "local ${1:Lib} = loadstring(dx9.Get(\"https://raw.githubusercontent.com/soupg/DXLibUI/main/main.lua\"))()"
         ]
     },
-    "dxui.SetWatermarkVisibility": {
+    "dxui:SetWatermarkVisibility": {
         "prefix": "dxui:SetWatermarkVisibility",
         "body": [
-            "${1:lib}:SetWatermarkVisibility(${2:bool})"
+            "${1:Lib}:SetWatermarkVisibility(${2:bool})"
         ]
     },
     "dxui:SetWatermark": {
         "prefix": "dxui:SetWatermark",
         "body": [
-            "${1:lib}:SetWatermark(${1:text}, {Location = ${2:x}, ${3:y}})"
+            "${1:Lib}:SetWatermark(${1:text}, {Location = ${2:x}, ${3:y}})"
         ]
     },
     "dxui:Notify": {
         "prefix": "dxui:Notify",
         "body": [
-            "${1:lib}:Notify(${2:Notification_Message}, ${2:duration})"
+            "${1:Lib}:Notify(${2:notificationMessage}, ${2:duration})"
         ]
     },
     "dxui:CreateWindow": {
         "prefix": "dxui:CreateWindow",
         "body": [
-            "${1:lib}:CreateWindow(${2:WindowTitle})"
+            "${1:Lib}:CreateWindow(${2:windowTitle})"
         ]
     },
-    "dxui:AddTab": {
-        "prefix": "dxui:AddTab"
+    "Window:AddTab": {
+        "prefix": "Window:AddTab",
+        "body": [
+            "${1:Window}:AddTab(${2:tabName})"
+        ]
+    },
+    "Tab:Focus": {
+        "prefix": "Tab:Focus",
+        "body": [
+            "${1:Tab}:Focus()"
+        ]
+    },
+    "Tab:AddGroupbox": {
+        "prefix": "Tab:AddGroupbox",
+        "body": [
+            "${1:Tab}:AddGroupbox(${2:name}, ${3:side})"
+        ]
+    },
+    "Tab:AddLeftGroupbox": {
+        "prefix": "Tab:AddLeftGroupbox",
+        "body": [
+            "${1:Tab}:AddLeftGroupbox(${2:name})"
+        ]
+    },
+    "Tab.AddRightGroupbox": {
+        "prefix": "Tab.AddRightGroupbox",
+        "body": [
+            "${1:Tab}:AddRightGroupbox(${2:name})"
+        ]
+    },
+    "Groupbox:AddButton": {
+        "prefix": "Groupbox:AddButton",
+        "body": [
+            "${1:Groupbox}:AddButton(${2:text}, ${3:function})"
+        ]
+    },
+    "Groupbox:AddColorPicker": {
+        "prefix": "Groupbox:AddColorPicker",
+        "body": [
+            "${1:Groupbox}:AddColorPicker({Index = ${2:UTI}, Default = {${3:r}, ${4:g}, ${5:b}}, Text = ${6:text}})"
+        ],
+        "description": "UTI = Unique Tool Index"
+    },
+    "ColorPicker:OnChanged": {
+        "prefix": "ColorPicker:OnChanged",
+        "body": [
+            "${1:ColorPicker}:OnChanged(${2:function})"
+        ]
+    },
+    "ColorPicker:SetValue": {
+        "prefix": "ColorPicker:SetValue",
+        "body": [
+            "${1:ColorPicker}:SetValue({${2:r}, ${3:g}, ${4:b}})"
+        ]
+    },
+    "ColorPicker:Show": {
+        "prefix": "ColorPicker:Show",
+        "body": [
+            "${1:ColorPicker}:Show()"
+        ]
+    },
+    "ColorPicker:Hide": {
+        "prefix": "ColorPicker:Hide",
+        "body": [
+            "${1:ColorPicker}:Hide()"
+        ]
+    },
+    "Groupbox:AddToggle": {
+        "prefix": "Groupbox:AddToggle",
+        "body": [
+            "${1:Groupbox}:AddToggle({Index = ${2:UTI}, default = ${3:bool}, Text = ${4:text}})"
+        ],
+        "description": "UTI = Unique Tool Index"
+    },
+    "Toggle:OnChanged": {
+        "prefix": "Toggle:OnChanged",
+        "body": [
+            "${1:Toggle}:OnChanged(${2:function})"
+        ]
+    },
+    "Toggle:SetValue": {
+        "prefix": "Toggle:SetValue",
+        "body": [
+            "${1:Toggle}:SetValue(${2:bool})"
+        ]
+    },
+    "Groupbox:AddSlider": {
+        "prefix": "Groupbox:AddSlider",
+        "body": [
+            "${1:Groupbox}:AddSlider({Index = ${2:UTI}, Default = ${3:int}, Text = ${4:text}, Min = ${5:int}, Max = ${6:int}, Suffix = {7:value}})"
+        ],
+        "description": "UTI = Unique Tool Index"
+    },
+    "Slider:OnChanged": {
+        "prefix": "Slider:OnChanged",
+        "body": [
+            "${1:Slider}:OnChanged(${function})"
+        ]
+    },
+    "Slider:SetValue": {
+        "prefix": "Slider:SetValue",
+        "body": [
+            "${1:Slider}:SetValue(${2:int})"
+        ]
+    },
+    "Groupbox:AddDropdown": {
+        "prefix": "Groupbod:AddDropdown",
+        "body": [
+            "${1:Groupbox}:AddDropdown()"
+        ]
+    },
+    "Dropdown:SetValues": {
+        "prefix": "Dropdown:SetValues",
+        "body": [
+            "${1:Dropdown}:SetValues(${2:table})"
+        ]
+    },
+    "Dropdown:Show": {
+        "prefix": "Dropdown:Show",
+        "body": [
+            "${1:Dropdown}:Show()"
+        ]
+    },
+    "Dropdown:Hide": {
+        "prefix": "Dropdown:Hide",
+        "body": [
+            "${1:Dropdown}:Hide()"
+        ]
+    },
+    "Dropdown:OnChanged": {
+        "prefix": "Dropdown:OnChanged",
+        "body": [
+            "${1:Dropdown}:OnChanged(${2:function})"
+        ]
+    },
+    "Dropdown:SetValue": {
+        "prefix": "Dropdown:SetValue",
+        "body": [
+            "${1:Dropdown}:SetValue(${2:value})"
+        ]
+    },
+    "Groupbox:AddLabel": {
+        "prefix": "Groupbox:AddLabel",
+        "body": [
+            "${1:Groupbox}:AddLabel(${2:text})"
+        ]
+    },
+    "Groupbox:AddTitle": {
+        "prefix": "Groupbox:AddTitle",
+        "body": [
+            "${1:Groupbox}:AddTitle(${2:text})"
+        ]
+    },
+    "Groupbox:AddBlank": {
+        "prefix": "Groupbox:AddBlank",
+        "body": [
+            "${1:Groupbox}:AddBlank(${2:soze})"
+        ]
+    },
+    "Groupbox:AddBorder": {
+        "prefix": "Groupbox:AddBorder",
+        "body": [
+            "${1:Groupbox}:AddBorder()"
+        ]
     }
 }

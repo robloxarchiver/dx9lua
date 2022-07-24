@@ -1,7 +1,30 @@
-# 0.2.0 Stable Release
+# 0.2.0 Stable Alpha Release
 
 Added
 - `!dxl` [Pull](https://github.com/RobloxArchiver/dx9lua/pull/1)
+- `!dxui` [Pull](https://github.com/RobloxArchiver/dx9lua/pull/1)
+- `dxui:SetWatermarkVisiblity`
+- `dxui:SetWatermark`
+- `dxui:Notify`
+- `dxui:CreateWindow`
+- `Window:AddTab`
+- `Tab:AddGroupbox`
+- `Tab:Focus`
+- `Tab:AddGroupbox`
+- `Tab:AddLeftGroupbox`
+- `Tab:AddRightGroupbox`
+- `Groupbox:AddButton` and it's residing functions within `ColorPicker:{Function}`
+- `Groupbox:AddColorPicker` and it's residing functions within `ColorPicker:{Function}`
+- `Groupbox:AddToggle` and it's residing functions within `ColorPicker:{Function}`
+- `Groupbox:AddSlider` and it's residing functions within `ColorPicker:{Function}`
+- `Groupbox:AddDropdown` and it's residing functions within `Dropdown:{Function}`
+- `Groupbox:AddLabel`
+- `Groupbox:AddTitle`
+- `Groupbox:AddBlank`
+- `Groupbox:AddBorder`
+
+Fixes
+- Added Images that actually load to `README.md`
 
 # 0.1.2 Stable Release
 
