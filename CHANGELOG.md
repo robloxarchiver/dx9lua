@@ -1,3 +1,8 @@
+# 0.2.0 Stable Release
+
+Added
+- `!dxl` [Pull](https://github.com/RobloxArchiver/dx9lua/pull/1)
+
 # 0.1.2 Stable Release
 
 Added

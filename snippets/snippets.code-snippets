@@ -1,4 +1,11 @@
 {
+    "!!!TEST": {
+        "prefix": "!!!TEST",
+        "body": [
+            "-- THIS IS FOR TESTING!"
+        ],
+        "description": "Testing Function for dx9lua."
+    },
     "dx9.FindFirstChild": {
         "prefix": "dx9.FindFirstChild",
         "body": [
@@ -308,7 +315,34 @@
     "!dxui": {
         "prefix": "!dxui",
         "body": [
-            "loadstring(dx9.Get(\"https://raw.githubusercontent.com/soupg/DXLibUI/main/main.lua\"))()"
+            "local ${1:lib} = loadstring(dx9.Get(\"https://raw.githubusercontent.com/soupg/DXLibUI/main/main.lua\"))()"
         ]
+    },
+    "dxui.SetWatermarkVisibility": {
+        "prefix": "dxui:SetWatermarkVisibility",
+        "body": [
+            "${1:lib}:SetWatermarkVisibility(${2:bool})"
+        ]
+    },
+    "dxui:SetWatermark": {
+        "prefix": "dxui:SetWatermark",
+        "body": [
+            "${1:lib}:SetWatermark(${1:text}, {Location = ${2:x}, ${3:y}})"
+        ]
+    },
+    "dxui:Notify": {
+        "prefix": "dxui:Notify",
+        "body": [
+            "${1:lib}:Notify(${2:Notification_Message}, ${2:duration})"
+        ]
+    },
+    "dxui:CreateWindow": {
+        "prefix": "dxui:CreateWindow",
+        "body": [
+            "${1:lib}:CreateWindow(${2:WindowTitle})"
+        ]
+    },
+    "dxui:AddTab": {
+        "prefix": "dxui:AddTab"
     }
 }
