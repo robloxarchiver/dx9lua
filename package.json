@@ -1,7 +1,7 @@
 {
     "name": "dx9lua",
     "description": "DX9WARE Lua support for Visual Studio Code.",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "RobloxArchiver",
     "icon": "images/logo.png",
     "engines": {
@@ -12,6 +12,18 @@
         "Other"
     ],
     "contributes": {
+        "languages": [
+            {
+                "id": "lua",
+                "aliases": ["Lua", "Luau", "dx9lua"],
+                "extensions": [
+                    ".dx9.lua",
+                    ".dx9",
+                    ".lua",
+                    ".dx9lua"
+                ]
+            }
+        ],
         "snippets": [
             {
                 "language": "lua",

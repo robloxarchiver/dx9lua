@@ -1,3 +1,9 @@
+# 0.1.2 Stable Release
+
+Added
+- `languages` to `contributes` in `package.json`
+- `lua` and multiple extensions for `dx9lua`. `.lua`, `.dx9`, `.dx9lua`, and `.dx9.lua`. (Pick your poison!)
+
 # 0.1.1 Stable Release
 
 Added
