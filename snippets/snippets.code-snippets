@@ -298,5 +298,17 @@
         "body": [
             "dx9.GetVelocity(${1:instance})"
         ]
+    },
+    "!dxl": {
+        "prefix": "!dxl",
+        "body": [
+            "loadstring(dx9.Get(\"https://raw.githubusercontent.com/soupg/DXLib/main/main.lua\"))()"
+        ]
+    },
+    "!dxui": {
+        "prefix": "!dxui",
+        "body": [
+            "loadstring(dx9.Get(\"https://raw.githubusercontent.com/soupg/DXLibUI/main/main.lua\"))()"
+        ]
     }
 }
