@@ -1,23 +1,42 @@
 {
     "dx9.FindFirstChild": {
         "prefix": "dx9.FindFirstChild",
-        "body": [
-            "dx9.FindFirstChild(${1:instance}, ${2:string})"
-        ],
-        "description": "Returns: Returns a pointer(number) to the instance."
+        "body": "dx9.FindFirstChild(${1:instance}, ${2:string})"
     },
     "dx9.FindFirstChildOfClass": {
         "prefix": "dx9.FindFirstChildOfClass",
-        "body": [
-            "dx9.FindFirstChildOfClass(${1:instance}, ${2:childName})"
-        ],
-        "description": "Returns: Returns a pointer(number) to the instance."
+        "body": "dx9.FindFirstChildOfClass(${1:instance}, ${2:childName})"
     },
     "dx9.FindFirstDescendant": {
         "prefix": "dx9.FindFirstDescendant",
-        "body": [
-            "dx9.FindFirstDescendant(${1:instance}, ${2:childName})"
-        ],
-        "description": "Returns: Returns a pointer(number) to the first instance which contains the child instance you're looking for."
+        "body": "dx9.FindFirstDescendant(${1:instance}, ${2:childName})"
+    },
+    "dx9.GetDatamodel": {
+        "prefix": "dx9.GetDatamodel",
+        "body": "dx9.GetDatamodel()"
+    },
+    "dx9.GetCFrame": {
+        "prefix": "dx9.GetCFrame",
+        "body": "dx9.GetCFrame(${1:BasePart})"
+    },
+    "dx9.GetAllParts": {
+        "prefix": "dx9.GetAllParts",
+        "body": "dx9.GetAllParts(${1:object})"
+    },
+    "dx9.GetName": {
+        "prefix": "dx9.GetName",
+        "body": "dx9.GetName(${1:instance})"
+    },
+    "dx9.GetChildren": {
+        "prefix": "dx9.GetChildren",
+        "body": "dx9.GetName(${1:instance})"
+    },
+    "dx9.GetPosition": {
+        "prefix": "dx9.GetPosition",
+        "body": "dx9.GetPosition(${1:instance})"
+    },
+    "dx9.GetParent": {
+        "prefix": "dx9.GetParent",
+        "body": "dx9.GetParent(${1:instance})"
     }
 }
