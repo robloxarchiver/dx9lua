@@ -1,58 +1,242 @@
 {
     "dx9.FindFirstChild": {
         "prefix": "dx9.FindFirstChild",
-        "body": "dx9.FindFirstChild(${1:pointer}, ${2:string})"
+        "body": [
+            "dx9.FindFirstChild(${1:instance}, ${2:childName})"
+        ]
     },
     "dx9.FindFirstChildOfClass": {
         "prefix": "dx9.FindFirstChildOfClass",
-        "body": "dx9.FindFirstChildOfClass(${1:pointer}, ${2:string})"
+        "body": [
+            "dx9.FindFirstChildOfClass(${1:instance}, ${2:childName})"
+        ]
     },
     "dx9.FindFirstDescendant": {
         "prefix": "dx9.FindFirstDescendant",
-        "body": "dx9.FindFirstDescendant(${1:pointer}, ${2:string})"
+        "body": [
+            "dx9.FindFirstDescendant(${1:instance}, ${2:childName})"
+        ]
     },
     "dx9.GetDatamodel": {
         "prefix": "dx9.GetDatamodel",
-        "body": "dx9.GetDatamodel()"
+        "body": [
+            "dx9.GetDatamodel()"
+        ]
     },
     "dx9.GetCFrame": {
         "prefix": "dx9.GetCFrame",
-        "body": "dx9.GetCFrame(${1:pointer})"
+        "body": [
+            "dx9.GetCFrame(${1:BasePart})"
+        ]
     },
     "dx9.GetAllParts": {
         "prefix": "dx9.GetAllParts",
-        "body": "dx9.GetAllParts(${1:pointer})"
+        "body": [
+            "dx9.GetAllParts(${1:object})"
+        ]
     },
     "dx9.GetName": {
         "prefix": "dx9.GetName",
-        "body": "dx9.GetName(${1:pointer})"
+        "body": [
+            "dx9.GetName(${1:instance})"
+        ]
     },
     "dx9.GetChildren": {
         "prefix": "dx9.GetChildren",
-        "body": "dx9.GetName(${1:pointer})"
+        "body": [
+            "dx9.GetName(${1:instance})"
+        ]
     },
     "dx9.GetPosition": {
         "prefix": "dx9.GetPosition",
-        "body": "dx9.GetPosition(${1:pointer})"
+        "body": [
+            "dx9.GetPosition(${1:instance})"
+        ]
     },
     "dx9.GetParent": {
         "prefix": "dx9.GetParent",
-        "body": "dx9.GetParent(${1:pointer})"
+        "body": [
+            "dx9.GetParent(${1:instance})"
+        ]
     },
     "dx9.GetTeam": {
         "prefix": "dx9.GetTeam",
-        "body": "dx9.GetTeam(${1:pointer})"
+        "body": [
+            "dx9.GetTeam(${1:player_instance})"
+        ]
     },
     "dx9.GetTeamColour": {
         "prefix": "dx9.GetTeamColour",
-        "body": "dx9.GetTeamColour(${1:pointer})"
+        "body": [
+            "dx9.GetTeamColour(${1:player_instance})"
+        ]
     },
     "dx9.GetCharacter": {
         "prefix": "dx9.GetCharacter",
-        "body": "dx9.GetCharacter(${1:pointer})"
+        "body": [
+            "dx9.GetCharacter(${1:player_instance})"
+        ]
     },
     "dx9.GetAdornee": {
         "prefix": "dx9.GetAdornee",
-        "body": "dx9.GetAdornee(${1:pointer})"
+        "body": [
+            "dx9.GetAdornee(${1:pointer})"
+        ]
+    },
+    "dx9.GetType": {
+        "prefix": "dx9.GetType",
+        "body": [
+            "dx9.GetType(${1:instance})"
+        ]
+    },
+    "dx9.GetTarget": {
+        "prefix": "dx9.GetTarget",
+        "body": [
+            "dx9.GetTarget()"
+        ]
+    },
+    "dx9.GetImageLabelPosition": {
+        "prefix": "dx9.GetImageLabelPosition",
+        "body": [
+            "dx9.GetImageLabelPosition(${1:instance})"
+        ]
+    },
+    "dx9.GetMouse": {
+        "prefix": "dx9.GetMouse",
+        "body": [
+            "dx9.GetMouse()"
+        ]
+    },
+    "dx9.GetNumValue": {
+        "prefix": "dx9.GetNumValue",
+        "body": [
+            "dx9.GetNumValue(${1:IntValueInstance})"
+        ]
+    },
+    "dx9.GetKey": {
+        "prefix": "dx9.GetKey",
+        "body": [
+            "dx9.GetKey()"
+        ]
+    },
+    "dx9.GetLocked": {
+        "prefix": "dx9.GetLocked",
+        "body": [
+            "dx9.GetLocked()"
+        ]
+    },
+    "dx9.GetStringValue": {
+        "prefix": "dx9.GetStringValue",
+        "body": [
+            "dx9.GetStringValue(${1:stringValueInstance})"
+        ]
+    },
+    "dx9.GetBoolValue": {
+        "prefix": "dx9.GetBoolValue",
+        "body": [
+            "dx9.GetBoolValue(${1:boolValueInstance})"
+        ]
+    },
+    "dx9.get_info": {
+        "prefix": "dx9.get_info",
+        "body": [
+            "dx9.get_info(${1:player_name}, ${2:body_part})"
+        ]
+    },
+    "dx9.get_player": {
+        "prefix": "dx9.get_player",
+        "body": [
+            "dx9.get_player(${1:player_name})"
+        ]
+    },
+    "dx9.get_players": {
+        "prefix": "dx9.get_players",
+        "body": [
+            "dx9.get_players()"
+        ]
+    },
+    "dx9.get_localplayer": {
+        "prefix": "dx9.get_localplayer",
+        "body": [
+            "dx9.get_localplayer()"
+        ]
+    },
+    "dx9.isLeftClick": {
+        "prefix": "dx9.isLeftClick",
+        "body": [
+            "dx9.isLeftClick()"
+        ]
+    },
+    "dx9.isRightClick": {
+        "prefix": "dx9.isRightClick",
+        "body": [
+            "dx9.isRightClick()"
+        ]
+    },
+    "dx9.isLeftClickHeld": {
+        "prefix": "dx9.isLeftClickHeld",
+        "body": [
+            "dx9.isLeftClickHeld()"
+        ]
+    },
+    "dx9.isRightClickHeld": {
+        "prefix": "dx9.isRightClickHeld",
+        "body": [
+            "dx9.isRightClickHeld()"
+        ]
+    },
+    "dx9.MatrixToEulers": {
+        "prefix": "dx9.MatrixToEulers",
+        "body": [
+            "dx9.MatrixToEulers(${1:CFrame})"
+        ]
+    },
+    "dx9.size": {
+        "prefix": "dx9.size",
+        "body": [
+            "dx9.size()"
+        ]
+    },
+    "dx9.ShowConsole": {
+        "prefix": "dx9.ShowConsole",
+        "body": [
+            "dx9.ShowConsole(${1:true/false})"
+        ]
+    },
+    "dx9.ClearConsole": {
+        "prefix": "dx9.ClearConsole",
+        "body": [
+            "dx9.ClearConsole()"
+        ]
+    },
+    "dx9.Teleport": {
+        "prefix": "dx9.Teleport",
+        "body": [
+            "dx9.Teleport(${1:character}, {${2:x}, ${3:y}, ${4:z}}"
+        ]
+    },
+    "dx9.FirstPersonAim": {
+        "prefix": "dx9.FirstPersonAim",
+        "body": [
+            "dx9.FirstPersonAim({${1:x}, ${2:y}}, ${3:smoothness}, ${4:sensitivity})"
+        ]
+    },
+    "dx9.ThirdPersonAim": {
+        "prefix": "dx9.ThirdPersonAim",
+        "body": [
+            "dx9.ThirdPersonAim({${1:x}, ${2:y}}, ${3:horizontal_smoothness}, ${4:smoothness})"
+        ]
+    },
+    "dx9.SetAimbotValue": {
+        "prefix": "dx9.SetAimbotValue",
+        "body": [
+            "dx9.SetAimbotValue(${1:setting}, ${2:value})"
+        ]
+    },
+    "dx9.WorldToScreen": {
+        "prefix": "dx9.WorldToScreen",
+        "body": [
+            "dx9.WorldToScreen(${1:position})"
+        ]
     }
 }
