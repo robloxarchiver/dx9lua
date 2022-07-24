@@ -1,4 +1,22 @@
-# 0.1.0 Beta Release
+# 0.1.1 Stable Release
+
+Added
+- `dx9.Mouse1Click`
+- `dx9.Mouse2Click`
+- `dx9.CalcTextWidth`
+- `dx9.Get`
+- `dx9.GetAimbotValue`
+- `dx9.GetKeys`
+- `dx9.GetHealth`
+- `dx9.GetMaxHealth`
+- `dx9.MouseMove`
+- `dx9.GetVelocity`
+- Special thanks to supg for giving me a list of undocumented functions for these above. :)
+
+Fix
+- `dx9.Teleport`
+
+# 0.1.0 Stable Release
 
 Added
 - `dx9.GetTeam`

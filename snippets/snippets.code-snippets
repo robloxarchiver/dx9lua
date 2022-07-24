@@ -212,7 +212,7 @@
     "dx9.Teleport": {
         "prefix": "dx9.Teleport",
         "body": [
-            "dx9.Teleport(${1:character}, {${2:x}, ${3:y}, ${4:z}}"
+            "dx9.Teleport(${1:character}, {${2:x}, ${3:y}, ${4:z}})"
         ]
     },
     "dx9.FirstPersonAim": {
@@ -237,6 +237,66 @@
         "prefix": "dx9.WorldToScreen",
         "body": [
             "dx9.WorldToScreen(${1:position})"
+        ]
+    },
+    "dx9.Mouse1Click": {
+        "prefix": "dx9.Mouse1Click",
+        "body": [
+            "dx9.Mouse1Click()"
+        ]
+    },
+    "dx9.Mouse2Click": {
+        "prefix": "dx9.Mouse2Click",
+        "body": [
+            "dx9.Mouse2Click()"
+        ]
+    },
+    "dx9.CalcTextWidth": {
+        "prefix": "dx9.CalcTextWidth",
+        "body": [
+            "dx9.CalcTextWidth(${1:text})"
+        ]
+    },
+    "dx9.Get": {
+        "prefix": "dx9.Get",
+        "body": [
+            "dx9.Get(${1:url_string})"
+        ]
+    },
+    "dx9.GetAimbotValue": {
+        "prefix": "dx9.GetAimbotValue",
+        "body": [
+            "dx9.GetAimbotValue(${1:setting})"
+        ]
+    },
+    "dx9.GetKeys": {
+        "prefix": "dx9.GetKeys()",
+        "body": [
+            "dx9.GetKeys()"
+        ]
+    },
+    "dx9.GetHealth": {
+        "prefix": "dx9.GetHealth",
+        "body": [
+            "dx9.GetHealth(${1:character})"
+        ]
+    },
+    "dx9.GetMaxHealth": {
+        "prefix": "dx9.GetMaxHealth",
+        "body": [
+            "dx9.GetMaxHealth(${1:character})"
+        ]
+    },
+    "dx9.MouseMove": {
+        "prefix": "dx9.MouseMove",
+        "body": [
+            "dx9.MouseMove({${1:x}, ${2:y}})"
+        ]
+    },
+    "dx9.GetVelocity": {
+        "prefix": "dx9.GetVelocity",
+        "body": [
+            "dx9.GetVelocity(${1:instance})"
         ]
     }
 }

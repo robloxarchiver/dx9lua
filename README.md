@@ -50,3 +50,7 @@ Step 3: Open the folder, and run `cmd` and then run `vsce package`.
 Step 4: Copy the path of the folder you made the build in and open VSCode. Go to the Extensions tab and click the 3 dots, then click `install from .vsix`. Paste in the path you copied, and open the build file. Now dx9lua should now be installed and ready for use!
 
 ![](https://github.com/RobloxArchiver/dx9lua/blob/main/images/build_installation_4.gif)
+
+# Contributors
+
+- supg (Gave a list of undocumented functions to add)
