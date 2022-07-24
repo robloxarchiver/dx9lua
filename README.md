@@ -1,7 +1,7 @@
 # DX9WARE Snippets for Lua
 This VSCode extension adds snippets for DX9WARE Lua. Currently has support for all major functions, and some undocumented functions.
 
-Here is a horrible demo!
+Here is a horrible demo as I do not know what to demo! If anyone would like to contribute a good demo please go ahead!
 ![](https://github.com/RobloxArchiver/dx9lua/blob/main/images/demo.gif)
 
 Created and Maintained by RobloxArchiver. The git is OPEN to contributions!
@@ -13,7 +13,19 @@ There are multiple ways to get `dx9lua`. Pick your own flavor!
 
 `dx9lua` is available on the VSCode Marketplace!
 
-![](https://github.com/RobloxArchiver/dx9lua/blob/main/images/image.png)
+![](https://github.com/RobloxArchiver/dx9lua/blob/main/images/vsc_download.png)
+
+## GitHub releases
+
+A prebuild binary can be downloaded from GitHub Releases!
+
+Step 1: Download the latest build from the GitHub repository.
+
+![](https://github.com/RobloxArchiver/dx9lua/blob/main/images/github_release_installation_1.gif)
+
+Step 2: Open VSCode and go to the Extenstions tab. Click the 3 dots and click `install from .vsix`. Go to your downloads folder and double click the binary you just installed.
+
+![](https://github.com/RobloxArchiver/dx9lua/blob/main/images/github_release_installation_2.gif)
 
 ## Build
 You can also just build it yourself.
