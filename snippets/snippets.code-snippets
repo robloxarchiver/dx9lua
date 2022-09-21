@@ -51,7 +51,7 @@
     "dx9.GetChildren": {
         "prefix": "dx9.GetChildren",
         "body": [
-            "dx9.GetName(${1:instance})"
+            "dx9.GetChildren(${1:instance})"
         ]
     },
     "dx9.GetPosition": {
